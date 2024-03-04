@@ -1,10 +1,13 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, [
-    React.createElement("h1", {}, "im h1 tag"),
-    React.createElement("h2", {}, "im h2 tag"),
+    React.createElement("h1", {}, "This is Namaste React"),
+    React.createElement("h2", {}, "By Raj Soni"),
   ]),
   React.createElement("div", { id: "child2" }, [
-    React.createElement("h1", {}, "im h1 tag"),
+    React.createElement("h1", {}, "By React js learner"),
     React.createElement("h2", {}, "im h2 tag"),
   ]),
 ]);
